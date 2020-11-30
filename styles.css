@@ -25,16 +25,15 @@ img{
 		max-width:100%;
 }
 
-/*.myportrait{
+.myportrait{
 	max-width: 90%;
 }
-*/
+
 .withHat{
 	max-width: 50%;
 	border-radius: 50%;
 	}
 .headerpic{
-	max-width: 90%;
 	object-fit: cover
 	margin-top: 0px;
 }
