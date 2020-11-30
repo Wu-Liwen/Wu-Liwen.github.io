@@ -1,0 +1,118 @@
+
+header{
+	text-align: center;
+	top: 10px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body{
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	font-size: 20px;
+	line-height: 25px;
+/*	text-align: center;*/
+}
+
+main{
+	max-width: 3000px;
+	margin: 0 auto;
+	padding: 0 0 0 30px;
+}
+
+img{
+		max-width:100%
+}
+
+/*.myportrait{
+	max-width: 90%;
+}
+*/
+.withHat{
+	max-width: 50%;
+	border-radius: 50%;
+	}
+.headerpic{
+	object-fit: cover
+	margin-top: 0px;
+}
+h1{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 25px;
+	line-height: 300%;
+	color: #1d55b3;
+}
+
+header h1{
+	line-height: 0px;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 30px;
+	color: #1d55b3;
+}
+
+ul li{
+	margin: 20px 10px;
+}
+
+
+.middle{
+	margin-left: 50px;
+}
+
+.right{
+	margin-left: 50px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*.work, .publications, .conferences, .awards, .comingevents{
+	font-size: 20px
+	line-height: 100%;
+}*/
+
+
+.work, .news{
+	/*	font-size: 50px
+	line-height: 100%;*/
+	text-align: justify;
+}
+
+.news{
+	font-family: Times New Roman, serif;
+}
+
+h2{
+	font-size: 20px;
+	line-height: 100%;
+	color: #1d55b3;
+}
+
+a{
+	color: #1d55b3;
+}
+
+a:hover{
+	/*color: #cc0099;*/
+	color: #B47FD3;
+}
+
+footer{
+	font-size: 15px;
+	color: #999999;
+	text-align: right;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: normal;
+	/*color: #1d55b3;*/
+/*	font-style: italic;*/
+	line-height: 30px;
+	margin-top: 0;
+}
