@@ -18,7 +18,7 @@ body{
 main{
 	max-width: 3000px;
 	margin: 0 auto;
-	padding: 0 0 0 30px;
+	padding: 1%;
 }
 
 img{
@@ -65,7 +65,7 @@ ul li{
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 3000px) {
   .column {
     width: 100%;
   }
