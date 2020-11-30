@@ -22,7 +22,7 @@ main{
 }
 
 img{
-		max-width:90%
+		max-width:100%
 }
 
 /*.myportrait{
@@ -34,6 +34,7 @@ img{
 	border-radius: 50%;
 	}
 .headerpic{
+	max-width: 90%;
 	object-fit: cover
 	margin-top: 0px;
 }
